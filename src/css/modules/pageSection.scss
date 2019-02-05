@@ -1,0 +1,16 @@
+.PageSection
+{
+
+	& .Home,
+	& .Services,
+	& .Articles,
+	& .Gallery,
+	& .Contact
+
+	{
+		background-color:$subtleWhite;
+		margin:1rem;
+		padding:2rem;
+		min-height:50vh;
+	}
+}

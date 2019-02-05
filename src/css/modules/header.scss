@@ -1,0 +1,12 @@
+header
+{
+	background: $subtleBlack;
+	margin-bottom: 1.45rem;
+    padding: 1.45rem 1.0875rem;
+
+	& h1 a
+	{
+		color: $subtleWhite;
+        text-decoration: none;
+	}
+}

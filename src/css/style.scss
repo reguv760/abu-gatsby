@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic');
+
+/* base CSS */
+/* @import 'base/_reset.css'; */ 
+
+/* variables */
+
+@import 'base/variables.scss';
+//@import 'base/mixins.scss';
+
+/* page layouts */
+@import 'base/layout.scss';
+@import 'base/global.scss'; /* this is the master scss for RG site */
+@import 'base/mixins.scss';
+
+//modules 
+@import 'modules/header.scss';
+@import 'modules/pageSection.scss';
+/*@import 'modules/mobileNav.scss';
+@import 'modules/pageContainer.scss';
+@import 'modules/pagination.scss';
+@import 'modules/portfolio.scss';
+@import 'modules/pageFooter.scss';
+
+@import 'base/mediaquery.scss'; */
+
+/* svg 
+@import 'modules/_sprite.css'; 
+
+@import 'modules/_mobileNav.css';
+@import 'modules/_pageHeader.css';
+@import 'modules/_portfolio.css';
+@import 'modules/_about.css'; */
