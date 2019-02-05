@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic');
 
 /* base CSS */
-/* @import 'base/_reset.css'; */ 
 
 /* variables */
-
 @import 'base/variables.scss';
-//@import 'base/mixins.scss';
+@import 'base/mixins.scss';
 
 /* page layouts */
 @import 'base/layout.scss';
-@import 'base/global.scss'; /* this is the master scss for RG site */
-@import 'base/mixins.scss';
+@import 'base/global.scss'; /* this is the master scss  */
+
 
 //modules 
 @import 'modules/header.scss';

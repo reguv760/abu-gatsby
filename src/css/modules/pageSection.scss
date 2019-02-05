@@ -1,6 +1,5 @@
 .PageSection
 {
-
 	& .Home,
 	& .Services,
 	& .Articles,
@@ -12,5 +11,6 @@
 		margin:1rem;
 		padding:2rem;
 		min-height:50vh;
+		min-width:100%;
 	}
 }
